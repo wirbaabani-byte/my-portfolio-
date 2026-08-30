@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GreenPath Initiative | Sustainable Future</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f8f4;
+  color: #333;
+}
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #176b35, #2b7a46);
+  color: white;
+}
+header h1 {
+  color: white;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+nav {
+  text-align: center;
+  padding: 15px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #176b35;
+  font-weight: bold;
+}
+section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+h2 { color: #176b35; }
+h3 { color: #2b7a46; }
+p { font-size: 18px; line-height: 1.7; }
+button {
+  background-color: #176b35;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+button:hover { background-color: #145a2d; }
+.project { border-left: 4px solid #176b35; padding-left: 15px; margin: 20px 0; }
+footer { text-align: center; padding: 30px; color: #666; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>GreenPath Initiative</h1>
+  <p>Empowering communities. Protecting our planet. Building a sustainable future.</p>
+  <button onclick="window.location.href='mailto:initiativegreenpath@gmail.com'">Support Our Work</button>
+</header>
+
+<nav>
+  <a href="#about">About Us</a>
+  <a href="#projects">Projects</a>
+  <a href="#impact">Our Impact</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    <b>GreenPath Initiative for Sustainable Development</b> is a community-based organization working to promote climate action, environmental protection, youth empowerment, and sustainable development in Cameroon and beyond.
+  </p>
+  <p>Building a greener and more sustainable future.</p>
+</section>
+
+<section id="projects">
+  <h2>Our Projects</h2>
+  <div class="project">
+    <h3>☀️ Solar Lighting</h3>
+    <p>Providing solar lighting solutions to support students and households with clean and reliable energy.</p>
+  </div>
+  <div class="project">
+    <h3>🌳 Tree Planting</h3>
+    <p>Promoting tree planting and environmental education to help communities protect and restore nature.</p>
+  </div>
+  <div class="project">
+    <h3>♻️ Waste Management</h3>
+    <p>Engaging young people in clean-up activities, waste sorting, recycling, and environmental awareness.</p>
+  </div>
+</section>
+
+<section id="impact">
+  <h2>Our Impact</h2>
+  <p>
+    We engage young people and communities through practical environmental activities, climate education, tree planting, waste management, and clean energy initiatives.
+  </p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Location: Bamenda, Northwest Region, Cameroon</p>
+  <p>Email: <a href="mailto:initiativegreenpath@gmail.com">initiativegreenpath@gmail.com</a></p>
+  <p>Website: https://wirbaabani-byte.github.io/my-portfolio-/</p>
+  <button onclick="window.location.href='mailto:initiativegreenpath@gmail.com'">Contact Us</button>
+</section>
+
+<footer>
+  © 2026 GreenPath Initiative | Empowering Communities, Protecting Our Planet
+</footer>
+
+</body>
+</html>
